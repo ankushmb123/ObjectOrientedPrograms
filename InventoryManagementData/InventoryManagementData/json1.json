@@ -1,54 +1,53 @@
 {
-  "TypesOfRice": [
+  "Rice": [
     {
-      "Name": "Basumati",
-      "Weight": "2",
-      "Price": "340"
+      "Name": "Basmati",
+      "Weight": 10,
+      "Price": 100
     },
     {
-      "Name": "Bullet",
-      "Weight": "6",
-      "Price": "300"
+      "Name": "Sona",
+      "Weight": 15,
+      "Price": 150
     },
     {
-      "Name": "xxxx",
-      "Weight": "5",
-      "Price": "220"
+      "Name": "Jeera",
+      "Weight": 20,
+      "Price": 900
     }
   ],
-
-  "TypesOfGrains": [
+  "Wheat": [
     {
-      "Name": "GreenGram",
-      "Weight": "5",
-      "Price": "200"
+      "Name": "Oklaho",
+      "Weight": 10,
+      "Price": 100
     },
     {
-      "Name": "Hoursegram",
-      "Weight": "12",
-      "Price": "100"
+      "Name": "Colora",
+      "Weight": 20,
+      "Price": 200
     },
     {
-      "Name": "Moongdal",
-      "Weight": "8",
-      "Price": "120"
+      "Name": "Kansas",
+      "Weight": 30,
+      "Price": 300
     }
   ],
-  "TypesOfWheats": [
+  "Pulses": [
     {
-      "Name": "Wheat1",
-      "Weight": "10",
-      "Price": "200"
+      "Name": "Masoor",
+      "Weight": 10,
+      "Price": 500
     },
     {
-      "Name": "Wheat2",
-      "Weight": "12",
-      "Price": "110"
+      "Name": "Urad2",
+      "Weight": 10,
+      "Price": 800
     },
     {
-      "Name": "Wheat3",
-      "Weight": "8",
-      "Price": "290"
+      "Name": "Rajma",
+      "Weight": 10,
+      "Price": 400
     }
   ]
 }

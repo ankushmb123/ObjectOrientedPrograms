@@ -6,30 +6,15 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementData
 {
-    public class Rice
+    internal class InventoryFactory
     {
-        public List<TypesOfRice> typesOfRice;
-        public List<TypesOfGrains> typesOfGrains;
-        public List<TypesOfWheats> typesOfWheats;
+        public List<InventoryModel> Rice { get; set; }
+        public List<InventoryModel> Wheat { get; set; }
+        public List<InventoryModel> Pulses { get; set; }
     }
-
-
-    public class TypesOfRice
+    public class InventoryModel
     {
-        public string Name { get; set; }
-        public int Weight { get; set; }
-        public int Price { get; set; }
-    }
 
-    public class TypesOfGrains
-    {
-        public string Name { get; set; }
-        public int Weight { get; set; }
-        public int Price { get; set; }
-    }
-
-    public class TypesOfWheats
-    {
         public string Name { get; set; }
         public int Weight { get; set; }
         public int Price { get; set; }
