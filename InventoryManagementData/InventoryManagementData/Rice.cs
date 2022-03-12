@@ -12,11 +12,22 @@ namespace InventoryManagementData
         public List<InventoryModel> Wheat { get; set; }
         public List<InventoryModel> Pulses { get; set; }
     }
-    public class InventoryModel
+    class InventoryModel
     {
 
         public string Name { get; set; }
         public int Weight { get; set; }
         public int Price { get; set; }
+    }
+     class InventorystockMain
+    { 
+        public string Stockname { get; set; }
+    public int Numberofshare { get; set; }
+    public int Shareprice { get; set; }
+
+        internal void DisplayData(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
